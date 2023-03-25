@@ -20,6 +20,7 @@ inquirer.prompt ( [
         message: 'How do you install it?:',
         name: 'confirm',
       },
+      // Ask:Questions below are not being logged
       {
         type: 'input',
         message: 'What is the usage?',
@@ -51,15 +52,4 @@ function init() {}
 init();
 
 
-// ***PRACTICE*****
-
-// const a = process.argv[2]
-// const b = process.argv[3]
-
-// if (a === b){
-// console.log ('They are equal')
-// }
-// else{
-//   console.log('They are not equal')
-// }
 
