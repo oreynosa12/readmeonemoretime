@@ -11,42 +11,59 @@ const generateMarkdown = require(`./generateMarkdown.js`);
 const questions = [
   {
     type: "input",
-    name: "Project",
+    name: "project",
     message: "What is your project name?",
   },
   {
     type: "input",
-    name: "Description",
+    name: "description",
     message: "What is your project description?",
   },
   {
     type: "input",
-    name: "Installation",
+    name: "installation",
     message: "How do you install it?:",
   },
 
   {
     type: "input",
-    name: "Usage",
+    name: "usage",
     message: "What is the usage?",
   },
   {
     type: "input",
-    name: "Credits",
+    name: "credits",
     message: "Do you want to add credits?",
   },
   {
     type: "input",
-    name: "License",
+    name: "license",
     message: "What type of license did you use?",
+  },
+  {
+    type: "input",
+    name: "contributing",
+    message: "How can other people contribute?",
+  },
+  {
+    type: "input",
+    name: "tests",
+    message: "What tests should I run?",
+  },
+  {
+    type: "input",
+    name: "questions",
+    message: "Where can someone submit question?",
   },
 ];
 
-// TODO: Create a function to write README file
+// TODO: Create a function to write README file--Contributing, Tests, and Questions
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) =>
-      err ? console.log(err) : console.log('Successfully created index.html!')
-    );
+    err
+      ? console.log(err)
+      : console.log("Successfully created a README.md file!")
+  );
 }
 
 // TODO: Create a function to initialize app
