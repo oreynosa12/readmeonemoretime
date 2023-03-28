@@ -2,10 +2,10 @@
 
 ## Description
 
-The motivation behind this project was to generate a professional README file without having to spend a lot of time on it. This allows developers to spend more time writing code for their projects rather than time on their README files.
+This is a quick README file generator. The motivation behind this project was to generate a professional README file without having to spend a lot of time on it. This allows developers to spend more time writing code for their projects rather than time on their README files.
 
 
-## Table of Contents (Optional)
+## Table of Contents 
 
 - [Installation](#installation)
 - [Usage](#usage)
