@@ -4,7 +4,7 @@
 
 This is a quick README file generator. The motivation behind this project was to generate a professional README file without having to spend a lot of time on it. This allows developers to spend more time writing code for their projects rather than time on their README files.
 
-![image](https://user-images.githubusercontent.com/121472588/228416327-810bc111-0e00-43e9-96c9-37ac310ada39.png)
+![image](https://user-images.githubusercontent.com/121472588/228417108-3a6331b7-b66d-46e2-9193-c5f7f71c43c3.png)
 
 
 ## Table of Contents 
