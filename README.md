@@ -27,6 +27,10 @@ integrated terminal then answer the questions.
 
 ## Credits
 
+Xander Rapstine - Xandromus
+
+Grace Choi - Gachoi06
+
 Dominique Meeks- Tutor  
 
 Nelson Foster - MoxUFO
